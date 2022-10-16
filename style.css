@@ -1,0 +1,69 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: tomato;
+    padding: 5px 0px;
+}
+.wishlist{
+    display: flex;
+    margin-left: 200px;
+}
+.menu nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.wishlist .track a{
+    text-decoration: none;
+    margin-right: 20px;
+    border-right: 1px solid rgb(190, 188, 188);
+    padding-right: 20px;
+    color: black;
+}
+.wishlist a{
+    margin-left: 5px;
+    color: black;
+}
+.wishlist a:hover{ 
+    color: tomato;
+    transition: 0.4s;
+
+}
+.wishlist .track a:hover{
+    color: black;
+}
+
+
+
+.shop-menu{
+    display: flex;
+    padding: 10px 0;
+}
+.home-menu nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cart-icon a{
+    font-size: 30px;
+    color: black;
+    margin-left: 10px;
+}
+.cart-icon a:hover{
+    color: tomato;
+    transition: 0.4s;
+}
+.home-menu nav a:hover{
+    color: tomato;
+    transition: 0.4s;
+}
